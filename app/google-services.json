@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "337152259221",
+    "firebase_url": "https://hallmanagement-e5bae-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "hallmanagement-e5bae",
+    "storage_bucket": "hallmanagement-e5bae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:337152259221:android:fd86b0fc8b579a0daf179c",
+        "android_client_info": {
+          "package_name": "com.example.hallmanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "337152259221-s463mpmh5ol0rhc1dn7f12h8tc1l3boe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC28wMn6W4IbN5yLyvtUsaoV7_Py4tVVDw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "337152259221-s463mpmh5ol0rhc1dn7f12h8tc1l3boe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
