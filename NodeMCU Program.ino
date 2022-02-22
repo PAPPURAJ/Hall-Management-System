@@ -1,7 +1,7 @@
 #include <SPI.h>
 #include <MFRC522.h>
 #define SS_PIN D4
-#define RST_PIN D2
+#define RST_PIN D3
 
 
 #include "FirebaseESP8266.h"
@@ -9,8 +9,8 @@
 
 #define FIREBASE_HOST "hallmanagement-e5bae-default-rtdb.asia-southeast1.firebasedatabase.app"
 #define FIREBASE_AUTH "jHjyop8UxdBPzNdEv53v4qiGaDuKJYeWY7MsdnLH"
-#define WIFI_SSID "DUET CSE"
-#define WIFI_PASSWORD "0000000000"
+#define WIFI_SSID "DUET HALL"
+#define WIFI_PASSWORD "12345678"
 FirebaseData firebaseData;
 FirebaseJson json;
 
@@ -158,21 +158,21 @@ int checkCard() {
   delay(500);
   content.toUpperCase();
 
-  if (content.substring(1) == "19 D7 5E B2") //change here the UID of the card/cards that you want to give access
+  if (content.substring(1) == "69 98 44 A2") //change here the UID of the card/cards that you want to give access
   {
     beep();
     return 1;
   }
 
-  else if (content.substring(1) == "FA D4 0E 28") {
+  else if (content.substring(1) == "12 A8 47 34") {
     beep();
     return 2;
   }
-  else if (content.substring(1) == "39 9D 72 B2") {
+  else if (content.substring(1) == "e") {
     beep();
     return 3;
   }
-  else if (content.substring(1) == "19 D6 70 B2") {
+  else if (content.substring(1) == "B9 83 73 B2") {
     beep();
     return 4;
   }
